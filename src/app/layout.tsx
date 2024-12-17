@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "PageSpark - Build Stunning Landing Pages",
     description:
       "A powerful drag-and-drop builder to create and deploy SEO-friendly landing pages. Export to Vercel or Netlify with ease.",
-    url: "https://pagespark.com",
+    url: "https://pagespark.rajanbuilds.com",
     siteName: "PageSpark",
     images: [
       {
@@ -56,16 +56,15 @@ export const metadata: Metadata = {
   },
 };
 
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         {children}
       </body>
